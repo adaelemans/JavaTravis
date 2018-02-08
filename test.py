@@ -9,7 +9,3 @@ def test():
 def test2():
 	if not sum(lis) == 20:
 		raise AssertionError()
-
-def test3():
-	if 1 = 1:
-		raise AssertionError()
