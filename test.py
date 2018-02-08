@@ -3,7 +3,9 @@ def fun(x):
 
 lis = [x for x in range(10) if x % 2 == 0]
 def test():
-	assert fun(3) == 4
+	if not fun(3) == 4:
+		raise AssertionError()
 
 def test2():
-	assert sum(lis) == 20
+	if not sum(lis) == 20:
+		raise AssertionError()
