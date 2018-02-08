@@ -7,6 +7,7 @@ install:
 script:
   - py.test --cov # or py.test for Python versions 3.5 and below
   - coverage xml
+  - ls 
   - python-codacy-coverage -r coverage.xml
 env:
   - CODACY_PROJECT_TOKEN=7b580ad1fde64e2a8b0f61be49bd52fd
