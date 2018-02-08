@@ -1,8 +1,5 @@
 import unittest
 
-
-
-
 def fun(x):
 	return x + 1
 
@@ -13,7 +10,3 @@ class MyTest(unittest.TestCase):
 
 	def test2(self):
 		self.assertEqual(sum(lis), 20)
-
-testSuite = MyTest()
-
-testSuite.test2()
